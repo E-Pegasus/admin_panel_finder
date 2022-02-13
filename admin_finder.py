@@ -47,8 +47,7 @@ def findLinks(siteName, writeLog= False):
             #status code after requst have made
             code = result.status_code
             #successfull request, returned 200 OK display
-            view1 = \ 
-            '''
+            view1 ='''
                 -------------------------------------------------------------------------------
             >| {x}/{linkSize}
                 |
